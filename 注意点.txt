@@ -1,0 +1,13 @@
+脚手架安装：
+npm install -g create-react-app
+create-react-app 工程名
+
+1  组件名 要大写
+
+return 只能有一个顶层元素
+
+class 应该写成className for 
+
+lable 中的 for 写成htmlFor
+
+标签必须封闭
