@@ -11,3 +11,5 @@ class 应该写成className for
 lable 中的 for 写成htmlFor
 
 标签必须封闭
+
+ 官网  https://doc.react-china.org/docs/forms.html

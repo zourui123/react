@@ -1,0 +1,16 @@
+官网
+
+<button onClick={active}> Activate </button>
+
+active(e){
+//组织默认事件
+e.preventDefault();
+console.log('The link was clicked.');
+
+}
+
+这并不是 React 的特殊行为；
+如果你没有在方法后面添加 () ，
+例如 onClick={this.handleClick}，你应该为这个方法绑定 this.
+
+this.addTodo = this.addTodo.bind(this);

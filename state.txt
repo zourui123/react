@@ -1,0 +1,7 @@
+
+ prevState 是上一个状态 
+
+// 注意：他这个箭头函数写法  花括号外面有小括号
+this.setState((prevState, props) => ({
+  counter: prevState.counter + props.increment
+}));
